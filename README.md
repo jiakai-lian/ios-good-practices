@@ -327,6 +327,7 @@ It pays off to keep these two as separated as possible, i.e. not perform side ef
 [Pragma marks](http://nshipster.com/pragma/) are a great way to group your methods, especially in view controllers. Here is a common structure that works with almost any view controller:
 
 ```objective-c
+#import "XYZFooViewController.h" //own header
 
 #import "SomeModel.h"
 #import "SomeView.h"
